@@ -1,0 +1,122 @@
+.skills{
+    background-color: var(--color-dark);
+    padding: 150px 0;
+   
+}
+.skils-img img{
+    max-width: 100%;
+    width: 50px;
+}
+
+
+.skils-wrapaer{
+    display: grid;
+    grid-template-columns:1fr 13fr ;
+    grid-gap: 1rem;
+}
+.card-skills{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 1rem;
+}
+
+.cards{
+    width: 100%;
+    height: auto;
+     justify-content: center;
+     align-items: center;
+    color: white;
+    background-color:var(--primary-color);
+ 
+   
+}
+.cards:hover{
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(146,190,118,1) 0%, rgba(144,190,120,1) 0%, rgba(131,189,94,1) 20%, rgba(253,187,45,1) 97%);
+    
+   
+}
+  .cards {
+
+    border-radius: .4rem;
+    position: relative;
+    font-size: 4rem;
+  }
+  
+/*  side skills  */
+
+h6.follows {
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    font-size: 1rem;
+    margin-top: 10rem;
+    margin-left: -3.3rem;
+    color: var(--color-secundary);
+    transform: rotate(-90deg);
+}
+
+.follows::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 2px;
+    margin: -44px 0;
+    background: hsla(0,0%,100%,.85);
+    z-index: -1;
+    transform: rotate(-89deg);
+    height: 5rem;
+    top: 1.3rem;
+    left: 184px;
+    right: 0px;
+}
+
+
+
+  /*  mmobile css start */
+
+  @media only screen and (max-width: 600px) {
+
+
+    .card-skills{
+        grid-template-columns: 1fr;
+        grid-gap: 1rem;
+    }
+
+    .skils-wrapaer{
+        grid-template-columns:2fr 50fr ;
+        grid-gap: 1rem;
+    }
+    .cards {
+        overflow-x: hidden;
+       width: 100%;
+        justify-content: center;
+        align-items: center;
+
+  
+      }
+      .card-skills{
+        margin-top: 5rem;
+      }
+
+
+      h6.follows {
+        margin-top: 10rem;
+        margin-left: -0.3rem;
+        transform: rotate(-90deg);
+        margin-right: 1rem;
+    }
+    .icons {
+        font-size: 1.5rem;
+        margin-top: 27rem;
+    }
+    .follows::after {
+        margin: -53px 0;
+        height: 5rem;
+        top: 1.3rem;
+        left: 179px;
+        right: 2px;
+    }
+
+  }
+

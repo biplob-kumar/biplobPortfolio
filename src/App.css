@@ -1,0 +1,71 @@
+/*  front family  */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&display=swap');
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+    font-family: 'Lato', sans-serif;
+
+
+}
+
+/*  toggle btn  */
+button.navbar-toggler.collapsed {
+    color: white;
+    background: white;
+
+}
+
+
+
+/*  default css  */
+
+body {
+    overflow-x: hidden;
+    background-color: #111a28;
+}
+
+:root {
+    --primary-color: rgb(153, 128, 250);
+    --color-border: rgb(153, 128, 250);
+    --color-secundary: white;
+    --color-dark: #111a28;
+
+}
+
+li {
+    list-style: none;
+}
+
+.bg {
+    background-color: var(--color-dark);
+}
+
+/*  primary button */
+.button {
+    font-weight: 700;
+    padding: 10px 20px;
+    color: var(--color-secundary);
+    background-color: var(--color-dark);
+    border: 2px solid var(--color-border);
+    border-radius: .2rem;
+    transition: .4s;
+    border-radius: .5rem;
+}
+
+.button:hover {
+    background-color: var(--primary-color);
+    color: var(--color-dark);
+
+}
+
+div#navbarScroll {
+    gap: 1.5rem;
+}
