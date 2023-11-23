@@ -3,7 +3,7 @@ import "../style/about.css"
 import { FaFacebook, FaGithub, FaLinkedin, FaTwitter, FaWhatsapp } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 
-const desc="Hello! I'm  developer biplob, i am a front-end developer. I develop web applications, , . My core skill is based on JavaScript and I love to do most of the things using JavaScript. I love to make the web more open to the world. I have graduated with a bachelor's degree in Computer Science Engineering from Chandigarh University at Punjab, India in 2020. I am available for any kind of job opportunity that suits my interests."
+const desc="Hello! I'm  developer biplob, i am a front-end developer. I develop web applications, , . My core skill is based on JavaScript and I love to do most of the things using JavaScript. I love to make the web more open to the world. I have graduated with a bachelor's degree in Computer Science Engineering from  open university in Bangaldesh  in 2023. I am available for any kind of job opportunity that suits my interests."
 const about=" ABOUT ME"
 
 const About = () => {

@@ -39,7 +39,7 @@ const Bar = () => {
                 <Nav.Link className='text-white' as={Link} to='/abouts' >ABOUT</Nav.Link>
                 <Nav.Link className='text-white' as={Link} to='/skil' >SKILL</Nav.Link>
                 <Nav.Link className='text-white' as={Link} to='/portfolio' > PORTFOLIO</Nav.Link>
-                <Nav.Link className='text-white' as={Link} to='/blog' > BLOG</Nav.Link>
+                <Nav.Link className='text-white' as={Link} to='https://biplob-blog.netlify.app/' > BLOG</Nav.Link>
                 <Nav.Link className='text-white' as={Link} to='/contact' > CONTACT</Nav.Link>
 
 
@@ -63,7 +63,7 @@ const Bar = () => {
           <Route path='/abouts' element={<Abouts/>} />
           <Route path='/skil' element={<Skill />} />
           <Route path='/portfolio' element={<Portfolio />} />
-          <Route path='/blog' element={<Blog />} />
+          <Route path='https://biplob-blog.netlify.app/' element={<Blog />} />
           <Route path='/contact' element={<Contact />} />
 
         </Routes>

@@ -128,7 +128,7 @@ const portfoliodata = [
         menu: 'React-Js',
         title: 'Blog-website',
         img: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjC3cBz9xFbGzph9lDzvPhujHNKVH92kicq9TsegVnc45wntjk6TN0fYhRGJv3fpHwkKN_kkaGPdl6O6II7Dwgrv5tOlLsL50_YH0_z-4CLE2yl50ZpgUTM-gAHNUquybD-OD1wmk7bkoYUlX-cH-kwFr5o56wUcMPgZXnsiUtLBYDfr11PymcdZIjx/s320/react%20js6.png',
-        livelink: "",
+        livelink: "https://biplob-blog.netlify.app/",
         githublink: ""
     },
 
