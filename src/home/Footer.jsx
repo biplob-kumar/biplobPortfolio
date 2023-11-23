@@ -23,11 +23,11 @@ const Footer = () => {
         </div>
         <div className="links ">
           <ul>
-            <li>  <Link to='/'>  <FaGithub className='icon' />  </Link>  </li>
-            <li>  <Link to='/'>  <FaFacebook className='icon' />  </Link>  </li>
-            <li>  <Link to='/'>  <FaLinkedin className='icon' />  </Link>  </li>
-            <li>  <Link to='/'>  <FaTwitter className='icon' />  </Link>  </li>
-            <li>  <Link to='/'>  <FaWhatsapp className='icon' />  </Link>  </li>
+          <li> <Link to='https://github.com/biplob-kumar'>  <FaGithub className='icon' />  </Link>  </li>
+                <li>  <Link to='https://www.facebook.com/profile.php?id=100014976270192'>  <FaFacebook className='icon' />  </Link>  </li>
+                <li>  <Link to='https://www.linkedin.com/in/biplob-kumar-07750a250/'>  <FaLinkedin className='icon' />  </Link>  </li>
+                 <li>  <Link to='https://twitter.com/Developerbiplob'>  <FaTwitter className='icon' />  </Link>  </li>
+                  <li>  <Link to='/'>  <FaWhatsapp className='icon' />  </Link>  </li>
           </ul>
         </div>
         <div className="copyright-text text-center text-white mt-3">
