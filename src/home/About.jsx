@@ -24,7 +24,7 @@ const About = () => {
        </div>
        <div className="about-right d-flex justify-content-center" data-aos="zoom-in-up">
            <div className="right-img">
-           <img src= "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjlsWmptWOj78BnvzkBVxp4Ip4hQJNIRmi_MLosF_vbDtqywq8lL-BbtBnw_n3NUZIOmlstAFB4WMMtNp-sVZUltlbP2gfwq5P8SSHHDmgHgm6444SQSgFO-lIcKLBR8T-sTXnWuMReHXJVlvOJhlWarYi1g_RwJSpxZ8Pn8jx9sUdWII3ChqQqs73u/s320/biplob.jpg" alt="" />
+           <img src= "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGxTZCnLyB1YfmnIl_XQGfd5SPXzOo1d7vqpvVYZCMqm0slmJdlGogm1SP-m1E5WYT2Ux_s1zD7Qz9VHRMLvSNim-aiwEO8GtA91sVKWksylAo70LmPcw7m1fkVOpYbFHESiNtSH0GBADNs7wIyE5KWG5njPyhvjIBIBdEFIS2Cn-WtzN1AfyiQn7h/s320/Firefly%2020231123151445.png" alt="" />
            <img src= "" alt="" />
 
            <div className="about-icons ">

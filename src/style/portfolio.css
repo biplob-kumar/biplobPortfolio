@@ -87,8 +87,9 @@ color:var(--primary-color);
     grid-template-columns: 50fr 1fr;
 }
 
+
 h2.text-white.text-center.mt-1 {
-    margin-left: 11rem;
+    margin-left: 5rem;
     font-weight: bold;
 }
 

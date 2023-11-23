@@ -140,8 +140,6 @@ const portfoliodata = [
         livelink: "https://cute-dragon-4eb196.netlify.app/",
         githublink: ""
     },
-
-
     {
         id: 17,
         menu: 'React-Js',
@@ -214,6 +212,16 @@ const portfoliodata = [
         title: 'Img Filtering ',
         img: ' https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgyJi87YM6OkAo9TP0O9-bGyLDmBPyzhRicoixKw6NmwRKh_b5Wr2g_J8a7SDUb8uNq9oYjaYTdPUN0XIDttCFTAj0PeNm1kU5M5jVSaaOpdNK9Ynbks863dX_auYUxMd4qV0gmHbfEQD9ektvvproaDaUfUJ0mxrfJ4BJy2pGhZsDdYuHczCQUeTu3/s320/others.png',
         livelink: "",
+        githublink: ""
+    },
+
+
+    {
+        id: 25,
+        menu: 'Wordpress',
+        title: 'Wordpress Personal website  ',
+        img: ' https://lh3.googleusercontent.com/-CRazhBwLpn8/ZV8bIKwCZ1I/AAAAAAAAEQg/yOx3rHLvJwc2rl1kI0JzuJZQor4_mWvhACNcBGAsYHQ/h120/Screenshot_1.png',
+        livelink: "https://ecommerce.developerbiplobkumar.com/",
         githublink: ""
     },
 

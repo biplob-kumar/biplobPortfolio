@@ -19,7 +19,7 @@ const Skills = () => {
       <div className="container skils-wrapaer ">
 
         <div className="icons ">
-        <li> <Link to='https://github.com/biplob-kumar'>  <FaGithub className='icon' />  </Link>  </li>
+        <li> <Link to='https://github.com/biplob-kumar'>  <FaGithub   className='icon' />  </Link>  </li>
                 <li>  <Link to='https://www.facebook.com/profile.php?id=100014976270192'>  <FaFacebook className='icon' />  </Link>  </li>
                 <li>  <Link to='https://www.linkedin.com/in/biplob-kumar-07750a250/'>  <FaLinkedin className='icon' />  </Link>  </li>
                  <li>  <Link to='https://twitter.com/Developerbiplob'>  <FaTwitter className='icon' />  </Link>  </li>
