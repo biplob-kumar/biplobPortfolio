@@ -11,7 +11,7 @@ const SkillsData=[
     {
         id:2,
         title: "Javascript ",
-        img:'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEibCulRY8Vkevw009A9luV0qN69Mtb0i6tp_ZSB66prhM7yIS0lveIm7cLuDj0WzNSII5cucAF-zxvkygEILIb4QYnf34U9s0whj9Gi2XJJQQaFwuGl_P2lW6Ze7phPCm2dX1ewj4R9spPRLfciaEwHSUqa6nMyxxwuwnGwc4BbItf2B5EPgZN2MPP3/s320/js.jpg'
+        img:'https://lh3.googleusercontent.com/-1w55um80-1A/ZV4kXiragOI/AAAAAAAAEPg/WTig8CxOqzkHTI03CRqTSbXZ7N7ckuw8QCNcBGAsYHQ/h120/JavaScript-logo.png'
     },
     {
         id:3,
@@ -40,21 +40,30 @@ const SkillsData=[
         title: "Bootstrap ",
         img:'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjFQj6s_GUVOGp6GkExfWaD6HIXCqOfHDZLoWkv0CBGANLlRCQhDGqydgZCYCcxV9swungPDysZg_2lTi0Qa3EZhxKb5tChhlfIL11R8vRI-5SActwGrRZclf-EXg3psHgb4ij1T9eTJZMnDGDAgK1Hz3awh9q0gJPi9hskg-c1mAAc0ZTlg-CAJipW/s320/bootstrap.png'
     },
+
     {
         id:8,
-        title: " Vs Code ",
-        img:'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJHvQ1Ilwn-cawe5dW1MKkwrWreOiDLCDwQ5y8uK0TCBq5yof6ioc7Nmrw_smQRT-hhDBXNQCXr39KfTAqIc2Ybdy8gTqhxxtQn8leQ8NSATDw8KInHINfgd5Xnr6gNMWMuxaE5O0TgmKPzX-m3_YocF0y2ftWHsgLPCSNlHrfKXlW6eaE1avO3k0O/s320/vscode.png'
+        title: "MongoDb ",
+        img:'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh57LA7yAFMx_kXcv3TGlHZApgpwZX4HYRnHvKer_UN5sBBwO-KV0uMV59VgTlrDeNWMPrvuKKtYB9U50dQxq4u-zpV4Sa5XDIMlQPmXVoIfc8S7ZeXn8ceFy90gsFPQGKvEZBiaaJhTRAml1fkomO-BOEJs-nxUC-P1Bi_sIInJUI29f-ULXhjyvkX/s320/mongodb.png'
     },
+
+
     {
         id:9,
-        title: " Canva ",
-        img:'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJ2e4amZlF9Z9AcqcCVv1tv5sFLmg1ud3wYK4tDYBflY28u7QfMC64TloAf-RXFxdVbF0o5dvTgXMh4X6fHzD4FNtMIBVFhTVkxdbKkkpn11p7I8WYBIkQA4fcRqWpbj_WBaMZFc1x37A7v2X-ct7I39genJPuuDBllbGiBSNeDVSsC29pIIIWwnWe/s320/canva.png'
+        title: "Rest Api  ",
+        img:'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1IWfyeRrubPbMMdZpDzvJb3LbROqmDU0WApax9cE2jtyhtT5FOA6EAbmJuQoqg6TXgxS3pFODpJ3cWTCusWWYg-LwqKfpnyIRspsURSomhyn4al1-CGj2PtPMr-WhEXJSgNhFiq8GMPXo1zMOzHuF0D6Qy24ob_is_f9ZYImw7gXZuAe19EgKTO5X/s320/pngegg-removebg-preview.png'
     },
+
     {
         id:10,
-        title: "Figma  ",
-        img:'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgvPOh4KxzSokT7finAz2KRZI2IuFDGuCvDFS8WvB_OA6kzyfaeKuxUB5dnblQCARPp-Q1oy47G8fel0Z57saVQ8pZG00PSjo7WtR3e0-HBYSpFyWFDJEOUVCrURrPk9j3V8BAPaZ3gZEMXafvj1Bw-SG5pfYeQzmeazxEUB7eF-ZZVIcc0TJK0AT0w/s320/figma.png'
+        title: "Node Js  ",
+        img:'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiXA2CWAh4syRyMA38eWCROo84CUxRcIm6FNXgg-t6LWvl09BSKz6YixsB9RApNav9_aGnVoMWpAjieqC1VetQu3hKmNQyBbVczJdOBXtKxj4sOAUayWmQ4oyW3ZL3HsXaHH6PgaIQwpV4QmqGpDndiSuwfCSlh2D2g7Zf-rGUSm48uG0MAUzMdSrAu/s320/node-js-icon.png'
     },
+
+
+
+
+
     {
         id:11,
         title: "Git  ",
@@ -67,18 +76,21 @@ const SkillsData=[
     },
     {
         id:13,
-        title: "MongoDb ",
-        img:'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh57LA7yAFMx_kXcv3TGlHZApgpwZX4HYRnHvKer_UN5sBBwO-KV0uMV59VgTlrDeNWMPrvuKKtYB9U50dQxq4u-zpV4Sa5XDIMlQPmXVoIfc8S7ZeXn8ceFy90gsFPQGKvEZBiaaJhTRAml1fkomO-BOEJs-nxUC-P1Bi_sIInJUI29f-ULXhjyvkX/s320/mongodb.png'
+        title: " Vs Code ",
+        img:'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJHvQ1Ilwn-cawe5dW1MKkwrWreOiDLCDwQ5y8uK0TCBq5yof6ioc7Nmrw_smQRT-hhDBXNQCXr39KfTAqIc2Ybdy8gTqhxxtQn8leQ8NSATDw8KInHINfgd5Xnr6gNMWMuxaE5O0TgmKPzX-m3_YocF0y2ftWHsgLPCSNlHrfKXlW6eaE1avO3k0O/s320/vscode.png'
     },
+
+
     {
         id:14,
         title: "Photoshop",
         img:'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgOguJL-0wxdhHSC9PrxO2ziBQloEG-E7Wpv48BohIE40m2g7yw9PeZl2sONqjDgWQ-uViMRPXQbx43Bft-6Kwb8sB5g_5x8Jg69PAGDJjE7znibwRrWNlklYzlbESQ8NMMUNyrQrJvUiRAyM3-glMiW0FeXiW8NPZY8scZ7L6TUqKQJlT3vs0YUOKz/s320/photoshop.png'
     },
+
     {
         id:15,
-        title: "Node Js  ",
-        img:'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiXA2CWAh4syRyMA38eWCROo84CUxRcIm6FNXgg-t6LWvl09BSKz6YixsB9RApNav9_aGnVoMWpAjieqC1VetQu3hKmNQyBbVczJdOBXtKxj4sOAUayWmQ4oyW3ZL3HsXaHH6PgaIQwpV4QmqGpDndiSuwfCSlh2D2g7Zf-rGUSm48uG0MAUzMdSrAu/s320/node-js-icon.png'
+        title: "Figma  ",
+        img:'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgvPOh4KxzSokT7finAz2KRZI2IuFDGuCvDFS8WvB_OA6kzyfaeKuxUB5dnblQCARPp-Q1oy47G8fel0Z57saVQ8pZG00PSjo7WtR3e0-HBYSpFyWFDJEOUVCrURrPk9j3V8BAPaZ3gZEMXafvj1Bw-SG5pfYeQzmeazxEUB7eF-ZZVIcc0TJK0AT0w/s320/figma.png'
     },
 
     {
@@ -88,12 +100,31 @@ const SkillsData=[
 
     },
 
-    
     {
-        id:16,
-        title: "Rest Api  ",
-        img:'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1IWfyeRrubPbMMdZpDzvJb3LbROqmDU0WApax9cE2jtyhtT5FOA6EAbmJuQoqg6TXgxS3pFODpJ3cWTCusWWYg-LwqKfpnyIRspsURSomhyn4al1-CGj2PtPMr-WhEXJSgNhFiq8GMPXo1zMOzHuF0D6Qy24ob_is_f9ZYImw7gXZuAe19EgKTO5X/s320/pngegg-removebg-preview.png'
-    }
+        id:17,
+        title: " Canva ",
+        img:'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJ2e4amZlF9Z9AcqcCVv1tv5sFLmg1ud3wYK4tDYBflY28u7QfMC64TloAf-RXFxdVbF0o5dvTgXMh4X6fHzD4FNtMIBVFhTVkxdbKkkpn11p7I8WYBIkQA4fcRqWpbj_WBaMZFc1x37A7v2X-ct7I39genJPuuDBllbGiBSNeDVSsC29pIIIWwnWe/s320/canva.png'
+    },
+    {
+        id:18,
+        title: " Sass ",
+        img:'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg92bPqci30nHTo3bIvlF9TBzUIkrnknsSeRd29GmOIO58b4cf5cmaUmwVMfsG4ng148baAN0fgL0jfcleS0Hp0ln5n-6dPgXfk176CsemLHHETzymE3wg1r2SAnsZA-aN3Urib5qrF5JXSU9WJcJkqBpE34AAviVGTP8j3KDkwzRcwsBciKXo1165R/s320/seal-color.png'
+    },
+    {
+        id:19,
+        title: " React Router ",
+        img:'https://lh3.googleusercontent.com/-Kx8nxNC3OOw/ZV4yrf_S19I/AAAAAAAAEPw/2gRDtY8ikacr-GyyzZiyyGpb_Ms29CW7wCNcBGAsYHQ/h120/reactrouter-logo-4572B114B5-seeklogo.com.png'
+    },
+
+    {
+        id:20,
+        title: " Express Js ",
+        img:'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgoj5AosQ2pjFjjCTcd00ZKO4G8TSvw-jFA5xNFAHclGmrIXmHfM58ZCNk3JKJJtrFPj0-EUClNEZUPgnFQgEbJHzWgT2FA7wVIEUnOO67H1BpANTBDMWxMNx7zBhFR_nwAvE8Cr6aD-XfGOqYMct7fzbKl5k820yie1s0k_xlKtamAYfINtuvIr7Pp/s320/pngwing.com%20(1).png'
+    },
+    
+    
+
+    
 
 
 

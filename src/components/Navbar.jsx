@@ -17,7 +17,7 @@ import Skill from "../pages/Skill";
 import Portfolio from "../pages/Portfolio";
 import Blog from "../pages/Blog";
 import Contact from "../pages/Contact";
-import About from '../home/About';
+import Abouts from '../pages/Abouts';
 
 // import Logo from "../assets/img/logo.png";
 
@@ -36,7 +36,7 @@ const Bar = () => {
                 navbarScroll
               >
                 <Nav.Link className='text-white ' as={Link} to='/' >HOME</Nav.Link>
-                <Nav.Link className='text-white' as={Link} to='/about' >ABOUT</Nav.Link>
+                <Nav.Link className='text-white' as={Link} to='/abouts' >ABOUT</Nav.Link>
                 <Nav.Link className='text-white' as={Link} to='/skil' >SKILL</Nav.Link>
                 <Nav.Link className='text-white' as={Link} to='/portfolio' > PORTFOLIO</Nav.Link>
                 <Nav.Link className='text-white' as={Link} to='/blog' > BLOG</Nav.Link>
@@ -47,7 +47,7 @@ const Bar = () => {
 
 
               </Nav>
-              <Link to='/' >
+              <Link to='https://drive.google.com/file/d/1Tvj1WPboh5VPM7vMrJUsX8QXTHM9PoSB/view?usp=sharing' >
                 <button className=' button' >Resume </button>
               </Link>
             </Navbar.Collapse>
@@ -60,7 +60,7 @@ const Bar = () => {
         <Routes>
 
           <Route path='/' element={<Home />} />
-          <Route path='/about' element={<About/>} />
+          <Route path='/abouts' element={<Abouts/>} />
           <Route path='/skil' element={<Skill />} />
           <Route path='/portfolio' element={<Portfolio />} />
           <Route path='/blog' element={<Blog />} />

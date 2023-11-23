@@ -20,6 +20,10 @@
     grid-gap: 1rem;
 }
 
+h4.text-center.title-skills {
+    margin-top: 1.2rem;
+}
+
 .cards{
     width: 100%;
     height: auto;
@@ -42,6 +46,8 @@
     position: relative;
     font-size: 4rem;
   }
+
+
   
 /*  side skills  */
 
@@ -75,7 +81,7 @@ h6.follows {
 
   /*  mmobile css start */
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 768px) {
 
 
     .card-skills{

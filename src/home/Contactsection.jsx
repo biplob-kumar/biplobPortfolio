@@ -15,25 +15,34 @@ const Contactsection = () => {
 
 
                 {/* <!--Section: Contact v.2--> */}
-                <section class="mb-4 py-6"  >
+                <section class="mb-4 py-5"  >
 
-                    {/* <!--Section heading--> */}
-                    <div className="col-md-7">
+                    <div className="contact-header">
+                        
+                        <div className="row">
+                            <div className="col-lg-3"></div>
+                            <div className="col-lg-6">
 
-                        <h2 class="h1-responsive font-weight-bold contact-h2 py-4">Contact us</h2>
+                            <h2 class="h1-responsive font-weight-bold contact-h2 py-4">Contact us</h2>
                         {/* <!--Section description--> */}
                         <p class=" w-responsive  py-2">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
                             a matter of hours to help you . plese Contact Me </p>
 
+                            </div>
+                            <div className="col-lg-3"></div>
+                        </div>
                     </div>
+                 
 
 
-                    <div className="col-md-5"></div>
+                    <div class="row" data-aos="zoom-in-right" >
 
-                    <div class="row">
 
                         {/* <!--Grid column--> */}
-                        <div class="col-md-7 mb-md-0 mb-5">
+                       <div className="col-lg-3 col-md-3"></div>
+
+
+                       <div class="col-md-6 mb-md-0 mb-5" >
                             <form id="contact-form" name="contact-form" action="mail.php" method="POST">
 
                                 {/* <!--Grid row--> */}
@@ -95,29 +104,14 @@ const Contactsection = () => {
                         </div>
                         {/* <!--Grid column-->
 
-                            <!--Grid column--> */}
-                        <div class="col-md-5 text-center">
-                            <ul class="list-unstyled mb-0 ">
+                           
+             
 
-                                <div className="contact-card">
-                                    <li><i class="fas fa-map-marker-alt fa-2x "></i>
-                                        <p> Magura ,Khulna Bangladesh</p>
-                                    </li>
-                                </div>
+                       <div className="col-lg-3 col-md-3"></div>
 
 
-                                <div className="contact-card">
-                                    <li><i class="fas fa-phone mt-4 fa-2x "></i>
-                                        <p> +8801612714870 </p>
-                                    </li>
-                                </div>
-                                <div className="contact-card">
-                                    <li><i class="fas fa-envelope mt-4 fa-2x ">   </i>
-                                        <p> devbiplob.com</p>
-                                    </li>
-                                </div>
-                            </ul>
-                        </div>
+
+
                         {/* <!--Grid column--> */}
 
                     </div>

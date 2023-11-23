@@ -20,8 +20,10 @@ li.men button{
 }
 
 li.men button:hover{
-    background-color: rgb(0, 184, 148);
+    background-color:rgb(48, 44, 44);
+    color:white;
 }
+
 
 .gallary-item img{
     
@@ -33,7 +35,7 @@ li.men button:hover{
 .gallary-item{
     border-radius: .5rem;
     width: 100%;
-    background-color: var(--primary-color);
+    background-color: var(--color-dark);
 }
 .gallary-item h6{
     margin-bottom: 1rem;
@@ -47,16 +49,21 @@ li.men button:hover{
     align-items: center;
     border-radius: .5rem;
 }
+
+.gallary-item h5{
+    margin-left: .8rem;
+}
 .portfolio-icon{
     font-weight: bold;
     display: inline-block;
     text-align: center;
     justify-content: center;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
+    margin-left: 1rem;
     color: white;
 }
 .portfolio-icon:hover{
-color: rgb(0, 184, 148);
+color:var(--primary-color);
 }
 
 .button-more{
@@ -86,37 +93,9 @@ h2.text-white.text-center.mt-1 {
 }
 
 
- /*  side skills  */
-
-
- /* h6.portfolio-me {
-    text-align: center;
-    color: white;
-    font-weight: bold;
-    padding: 10px 20px;
-    background-color: var(--primary-color);
-    transform: rotate(90deg);
-    margin-top: -135rem;
-    margin-left: 18rem;
-}
-.portfolio-me::before{
-    content: "";
-    position: absolute;
-    height: 100%;
-    width: 2px;
-    margin: -44px 0;
-    background: hsla(0,0%,100%,.85);
-    z-index: -1;
-    transform: rotate(-89deg);
-    height: 5rem;
-    top: 1.3rem;
-    left: 201px;
-    right: 0px;
-} */
-
 /*  mobile css start */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
  
 
     .gallary-continer{

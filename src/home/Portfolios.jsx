@@ -5,6 +5,7 @@ import { CiLink } from "react-icons/ci";
 import { FaFacebook, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 import { FaCircle } from "react-icons/fa";
+import { FaExternalLinkAlt } from "react-icons/fa";
 
 const portfolio = "PORTFOLIO"
 
@@ -43,10 +44,10 @@ const Portfolios = () => {
         <div className='gallary-continer mt-3'>
           {
             data.map((item) =>
-              <div key={item.id} className='gallary-item'> <img src={item.img} />
+              <div key={item.id} className='gallary-item' data-aos="zoom-in-down"> <img src={item.img} />
                 <h5 className='text-white ' > {item.title} </h5>
                 <div className='text-white d-flex mb-5 gap-3 portfolio '>
-                  <Link to={item.livelink} className='portfolio-icon' > <CiLink /> </Link>
+                  <Link to={item.livelink} className='portfolio-icon' >  <FaExternalLinkAlt />  </Link>
                   <Link to={item.githublink} className='portfolio-icon' >  <FaGithub /> </Link>
                 </div>
 

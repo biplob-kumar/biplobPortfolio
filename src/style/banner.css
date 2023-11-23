@@ -29,6 +29,7 @@ h6.follow {
     margin-left: -3.3rem;
     color: var(--color-secundary);
 }
+
 .follow::after{
     content: "";
     position: absolute;
@@ -75,6 +76,7 @@ align-self: center;
 font-size: 1.5rem;
 color: var( --primary-color);
 }
+
 .dot{
    gap: .5rem;
     margin: 1rem 0;
@@ -95,18 +97,84 @@ color: var(--primary-color);
      border-radius: .5rem;
     width: 250px;
 }
+
+/*  animation text */
+
+.animated-text{
+    font-size: 34px;
+    font-weight: 600;
+    min-width: 280px;
+}
+
+.animated-text span{
+    position: relative;
+}
+
+.animated-text span::before{
+    content: "Youtuber";
+    color: var(--primary-color);
+    animation: words 20s infinite;
+}
+
+.animated-text span::after{
+    content: "";
+    position: absolute;
+    width: calc(100% + 8px);
+    height: 100%;
+    background-color: var(--color-dark);
+    border-left: 2px solid var(--primary-color);
+    right: -8px;
+    animation: cursor .8s infinite, typing 20s steps(14) infinite;
+}
+
+@keyframes cursor {
+    to{
+        border-left: 2px solid #ff7f5000;
+    }
+}
+
+@keyframes words {
+    0%,20%{
+        content: " Front-end Developer";
+    }
+    21%,40%{
+        content: "Full-stack Web developer";
+    }
+    41%,60%{
+        content: "Mern-Developer";
+    }
+    61%,80%{
+        content: "Programmer";
+    }
+    81%,100%{
+        content: " Wordpress Customizer";
+    }
+}
+
+@keyframes typing {
+    10%,15%,30%,35%,50%,55%,70%,75%,90%,95%{
+        width: 0;
+    }
+    5%,20%,25%,40%,45%,60%,65%,80%,85%{
+        width: calc(100% + 8px);
+    }
+}
+
+
+
 /*  mobile css start */
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
 
     .banner-content h2{
       font-size: 2.5rem;
     }
     .banner-content h4{
-      font-size: 1.5rem;
+      font-size: .2rem;
     }
     .dot{
+       
         gap: 0;
         font-size: 10px;
      }
@@ -114,7 +182,20 @@ color: var(--primary-color);
         display: grid;
         grid-template-columns:  1fr;
     }
-    
+
+.banner-right img{
+    width: 100%;
+}
+
+
+.animated-text{
+    display: none;
+}
+
+.banner{
+    padding: 60px 0;
+    background-color:var(--color-dark);
+}
 
   
   }
