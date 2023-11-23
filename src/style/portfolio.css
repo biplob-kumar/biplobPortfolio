@@ -95,6 +95,24 @@ h2.text-white.text-center.mt-1 {
 
 /*  mobile css start */
 
+@media only screen and (max-width: 1080px) {
+
+    .nav {
+        padding: 10px;
+        width: 773px;
+        height: 176px;
+      
+    }
+    h2.text-white.text-center.mt-1 {
+        margin-left: 1rem;
+        font-weight: bold;
+        font-size: 3rem;
+    }
+}
+
+
+
+
 @media only screen and (max-width: 768px) {
  
 

@@ -112,7 +112,7 @@ color: var(--primary-color);
 
 .animated-text span::before{
     content: "Youtuber";
-    color: var(--primary-color);
+    color: white;
     animation: words 20s infinite;
 }
 
@@ -163,6 +163,20 @@ color: var(--primary-color);
 
 
 /*  mobile css start */
+
+@media only screen and (max-width: 1080px) {
+    h6.follow {
+        font-weight: bold;
+        padding: 20px 33px;
+        background-color: var(--primary-color);
+        font-size: 13px;
+        margin-top: 10rem;
+        margin-left: -2.3rem;
+        color: var(--color-secundary);
+    }
+
+}
+
 
 
 @media only screen and (max-width: 768px) {
