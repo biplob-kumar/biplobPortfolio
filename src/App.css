@@ -63,6 +63,7 @@ li {
 .button:hover {
     background-color: var(--primary-color);
     color: var(--color-dark);
+    color: white;
 
 }
 
