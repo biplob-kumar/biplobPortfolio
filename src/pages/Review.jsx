@@ -19,7 +19,7 @@ const Review = () => {
        <div className="container">
 
 
-       <MDBContainer className="py-5 text-white">
+       <MDBContainer className="py-5 text-white"  data-aos="zoom-in">
       <MDBCarousel showControls dark >
   
           <MDBCarouselItem className="active">
