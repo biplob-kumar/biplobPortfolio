@@ -101,7 +101,7 @@ const portfoliodata = [
         menu: 'Short-project',
         title: 'Note pad',
         img: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjksAcDzh57up_jmxLHMQWMnsbC0erlzHNxMXLYtwgufBLhKLvcgAEoyhBzAs-WJexqZZu0rGtE2a3Gh5Dg0TzFboysT3iyunqlgbQDvp5b3ZHheTxSDcXxe9w41vHUK4iOeIeNnFktykltO9SPJZ1at_79abisNAs9mdP9FN5DFpSrH3kv1_o7hIB_/s320/shortproject2.jpg',
-        livelink: "https://iridescent-quokka-0a9109.netlify.app/",
+        livelink: "https://notepaed.netlify.app/",
         githublink: ""
     },
 
@@ -120,7 +120,7 @@ const portfoliodata = [
         menu: 'React-Js',
         title: 'Gym website',
         img: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi_-8CkjLm1UfUpnZEZtrYojAd77kelAk7L10ViCcieu-GAnzaegU2mFYVNlbVhnLFpg0cq68tZscnV0AeQ-UwacBAM_kkvIg5ln28Xi_ZvBPHXhfJUwSptdhuGFKSj6pJeSnoBLTgwEgVUyIjphkN4X5cR5mOau5h6vXsNiMkxH9_PV9L-LDUE_Wn0/s320/reactjs1.png',
-        livelink: "https://lambent-puppy-a755d7.netlify.app/",
+        livelink: "https://gymnatiam.netlify.app/",
         githublink: ""
     },
     {
@@ -137,7 +137,7 @@ const portfoliodata = [
         menu: 'React-Js',
         title: 'Parcel website',
         img: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi5x0H8Buo2IWWUlPCKVylYnzDFYSfi8-VKHVTwkVsNOuh22KUqtZRHpjhgCaQcOggUiaUJel1j4NK78NJRp7RAvCsRLiH9Wp3yiKGt83GVXK7wkIz8Fd6Fn3SvU8-OnV9AjLomgBp8AV_bFaJe8S5-HRgDc9zOOkVyax8AstMjEefSMcljIUZM22ZV/s320/Reactjs3.png',
-        livelink: "https://cute-dragon-4eb196.netlify.app/",
+        livelink: "https://ready-site.netlify.app/",
         githublink: ""
     },
     {
@@ -145,7 +145,7 @@ const portfoliodata = [
         menu: 'React-Js',
         title: 'Social Mediya website',
         img: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjWJNKRWOzh3nrzc1HJ7gv0nJ3vluP2ZWaO-rf2TxIa5UErF5_Ag-_bD8wCBq-wPVD2TuFBU_jAOhPw1BH39xNxr7kGIBKMvxSxi4orTihe5juxwvRfbg3EgskzKDIUtTuJa2RIq1cj1UfDjxavWTDLn9MW-zwuSrU7qBwOOJESvbREJ43jln4cxmLs/s320/reactjs2.png',
-        livelink: "https://capable-lolly-8203aa.netlify.app/",
+        livelink: "https://socialmediya.netlify.app/",
         githublink: ""
     },
 
@@ -164,7 +164,7 @@ const portfoliodata = [
         menu: 'Api-Project',
         title: 'Movie app',
         img: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjnw1xndXDnrHHfDYdB1AGBmBIPrsv6CQnXVU9vRhWPzazIA2xN3q_fE5Wh6LK_OeHvw2ngucRPLn5GkEk_cnHLJX3p8Htx5K0uiABNtlI5bS05PjT5RJitrgE38R6zXNhEyj9CcF0SiBs-vdd6ttthvYP8Imc96gMorUwRvPXoUIDeqb2mun8H9lrV/s320/api2.png',
-        livelink: "https://comfy-tarsier-13d2fd.netlify.app/",
+        livelink: "https://movie-chinema.netlify.app/",
         githublink: ""
     },
 
@@ -173,7 +173,7 @@ const portfoliodata = [
         menu: 'Api-Project',
         title: 'Countruy app',
         img: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh5g0jsAptS7aMlh-paRBC_1Ygj_Av8oaj1zGVg2sx1WiDXq5UmJxgSOPuef89M7fvx2tOmymtN5jZaRKYmTL0iStP1NQ3tsF3CIOOELc6xKzfbjT9DP-excSoTl0ODIT-p28n1ft7pxQRkTmYHQpd76kv1wnqs16O_pwU4M6Dx08XCIJjl2aj8sac9/s320/api1.png',
-        livelink: "https://6557bed062345a1479918f27--preeminent-faloodeh-bbcc4c.netlify.app/",
+        livelink: "https://desh-searxh.netlify.app/",
         githublink: ""
     },
     // BACKEND MENU
