@@ -7,6 +7,7 @@ import Skills from './Skills';
 import Portfolios from './Portfolios';
 import Contactsection from './Contactsection';
 import Footer from './Footer';
+import Review from '../pages/Review';
 
 
 const Home = () => {
@@ -19,6 +20,7 @@ const Home = () => {
       <About />
       <Skills />
       <Portfolios />
+        <Review/>
       <Contactsection />
       <Footer />
       <Outlet />

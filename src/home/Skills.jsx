@@ -13,9 +13,13 @@ const Skills = () => {
   useEffect(() => {
     setdata(SkillsData)
   }, [])
-  console.log(data)
+
+  // console.log(data)
+
   return (
+    
     <div className='skills d-flex  '>
+      
       <div className="container skils-wrapaer ">
 
         <div className="icons ">
@@ -26,9 +30,11 @@ const Skills = () => {
                   <li>  <Link to='/'>  <FaWhatsapp className='icon' />  </Link>  </li>
 
           <h6 className='follows' >{skills}</h6>
+     
         </div >
 
         <div className='card-skills text-center ' data-aos="zoom-in-up" >
+   
           {
             data.map((item) => (
               <div className='d-flex  cards gap-4 ' key={item.id}>
