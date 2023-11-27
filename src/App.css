@@ -85,3 +85,12 @@ div#navbarScroll {
     height: 100vh;
   }
 
+
+
+  /*  navbar logo css */
+
+  h5.logo a {
+    text-decoration: none;
+    font-family: cursive;
+    color: white;
+}

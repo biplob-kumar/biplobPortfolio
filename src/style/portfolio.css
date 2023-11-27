@@ -33,9 +33,16 @@ li.men button:hover{
     margin-bottom: 1rem;
 }
 .gallary-item{
+    
     border-radius: .5rem;
     width: 100%;
-    background-color: var(--color-dark);
+
+ 
+}
+.gallary-item:hover{
+    background-color: var(--primary-color);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    transition: .4s;
 }
 .gallary-item h6{
     margin-bottom: 1rem;
@@ -63,7 +70,7 @@ li.men button:hover{
     color: white;
 }
 .portfolio-icon:hover{
-color:var(--primary-color);
+color:var(--color-dark);
 }
 
 .button-more{

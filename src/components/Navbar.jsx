@@ -27,7 +27,7 @@ const Bar = () => {
       <>
         <Navbar expand="lg" className="bg text-white sticky-top py-3">
           <Container>
-            <Navbar.Brand href="#" className='text-white '>  <h5 className='logo'> B<span>K</span> </h5>   </Navbar.Brand>
+            <Navbar.Brand href="#" className='text-white '>  <h5 className='logo'>  <Link to='/' > B<span>K</span></Link> </h5>   </Navbar.Brand>
             <Navbar.Toggle aria-controls="navbarScroll" />
             <Navbar.Collapse id="navbarScroll">
               <Nav

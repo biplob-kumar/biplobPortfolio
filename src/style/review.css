@@ -6,3 +6,7 @@
 .mb-3{
     font-weight: bold;
 }
+
+h6.text-primary.mb-3 {
+    color: var(--primary-color) !important;
+}

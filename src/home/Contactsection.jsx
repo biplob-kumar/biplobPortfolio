@@ -10,10 +10,9 @@ const Contactsection = () => {
 
     return (
         <div className='contact text-white' >
+    
             <div className='container '>
-
-
-
+         
                 {/* <!--Section: Contact v.2--> */}
                 <section class="mb-4 py-5"  >
 

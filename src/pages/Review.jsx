@@ -14,11 +14,10 @@ import {
 
 const Review = () => {
   return (
-    <div className='review '>
+    <div className='review py-5 '>
         
        <div className="container">
-
-
+       
        <MDBContainer className="py-5 text-white"  data-aos="zoom-in">
       <MDBCarousel showControls dark >
   

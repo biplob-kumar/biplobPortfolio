@@ -7,7 +7,7 @@ import { FaCircle } from "react-icons/fa";
 const samlltitle = 'Hello! I am'
 const titlebig = "Biplob Kumar"
 const developer = "Full Stack Developer"
-const list = "Web Developer"
+const list = "Web-Developer"
 const list2 = "Programmer"
 const list3 = " Problem Solver"
 const Follow = "FOLOW ME "
@@ -42,6 +42,7 @@ const Banner = () => {
                                    <li> <FaCircle className='circle' /> {list} </li>
                                    <li><FaCircle className='circle' /> {list2} </li>
                                    <li>  <FaCircle className='circle' />{list3} </li>
+                                 
                               </div>
 
                               <div className="bt my-4 ">
