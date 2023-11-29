@@ -23,8 +23,6 @@ li.men button:hover{
     background-color:rgb(48, 44, 44);
     color:white;
 }
-
-
 .gallary-item img{
     
     width: 100%;
@@ -33,7 +31,7 @@ li.men button:hover{
     margin-bottom: 1rem;
 }
 .gallary-item{
-    
+     background:var(--color-dark);
     border-radius: .5rem;
     width: 100%;
 
