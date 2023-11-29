@@ -33,7 +33,7 @@ const About = () => {
                 <li>  <Link to='https://www.facebook.com/profile.php?id=100014976270192'>  <FaFacebook className='icon' />  </Link>  </li>
                 <li>  <Link to='https://www.linkedin.com/in/biplob-kumar-07750a250/'>  <FaLinkedin className='icon' />  </Link>  </li>
                  <li>  <Link to='https://twitter.com/Developerbiplob'>  <FaTwitter className='icon' />  </Link>  </li>
-                  <li>  <Link to='/'>  <FaWhatsapp className='icon' />  </Link>  </li>
+                 <li>  <Link to='http://wa.me/+8801612714870'>  <FaWhatsapp className='icon' />  </Link>  </li>
              
                  </div>
                 <h6 className='about-me' >{about}</h6>
