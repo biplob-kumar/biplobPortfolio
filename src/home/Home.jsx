@@ -5,9 +5,10 @@ import { Outlet } from 'react-router-dom';
 import About from '../home/About';
 import Skills from './Skills';
 import Portfolios from './Portfolios';
-import Contactsection from '../home/Contactsection';
+
 import Footer from './Footer';
 import Review from '../pages/Review';
+import Contactsection from '../home/Contactsection';
 
 
 const Home = () => {
@@ -20,8 +21,8 @@ const Home = () => {
       <About />
       <Skills />
       <Portfolios />
-        <Review/>
-      <Contactsection />
+      <Review/>
+     <Contactsection/>
       <Footer />
       <Outlet />
 
