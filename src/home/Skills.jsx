@@ -1,7 +1,10 @@
 import React, { useEffect, useState } from 'react'
 import SkillsData from '../All data/skilsData';
 
-import { FaFacebook, FaGithub, FaLinkedin, FaTwitter, FaWhatsapp } from "react-icons/fa";
+import { FaFacebook, FaGithub, FaLinkedin, FaTwitter,FaReact } from "react-icons/fa";
+import { DiMongodb } from "react-icons/di";
+import { IoLogoJavascript } from "react-icons/io5";
+import { IoIosGitNetwork } from "react-icons/io";
 import { FaCircle } from "react-icons/fa";
 import '../style/skils.css'
 import { Link } from 'react-router-dom';
@@ -17,24 +20,24 @@ const Skills = () => {
   // console.log(data)
 
   return (
-    
+
     <div className='skills d-flex  '>
-      
+
       <div className="container skils-wrapaer ">
 
         <div className="icons ">
-        <li> <Link to='https://github.com/biplob-kumar'>  <FaGithub   className='icon' />  </Link>  </li>
-                <li>  <Link to='https://www.facebook.com/profile.php?id=100014976270192'>  <FaFacebook className='icon' />  </Link>  </li>
-                <li>  <Link to='https://www.linkedin.com/in/biplob-kumar-07750a250/'>  <FaLinkedin className='icon' />  </Link>  </li>
-                 <li>  <Link to='https://twitter.com/Developerbiplob'>  <FaTwitter className='icon' />  </Link>  </li>
-                 <li>  <Link to='http://wa.me/+8801612714870'>  <FaWhatsapp className='icon' />  </Link>  </li>
+          <li> <Link to='https://github.com/biplob-kumar'>  <FaGithub className='icon' />  </Link>  </li>
+          <li>  <Link to=''>  <IoIosGitNetwork className='icon' />  </Link>  </li>
+          <li>  <Link to=''>  <FaReact className='icon' />  </Link>  </li>
+          <li>  <Link to=''> <IoLogoJavascript  className='icon' /> </Link>  </li>
+          <li>  <Link to=''>  <DiMongodb className='icon'  />  </Link>  </li>
 
           <h6 className='follows' >{skills}</h6>
-     
+
         </div >
 
         <div className='card-skills text-center ' data-aos="zoom-in-up" >
-   
+
           {
             data.map((item) => (
               <div className='d-flex  cards gap-4 ' key={item.id}>
