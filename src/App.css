@@ -85,6 +85,14 @@ div#navbarScroll {
     height: 100vh;
   }
 
+  /* icon hover  */
+  svg.icon{
+    transition: .4s;
+  }
+  svg.icon:hover {
+    color: var(--color-secundary);
+    background: var(----color-dark);
+}
 
 
   /*  navbar logo css */
