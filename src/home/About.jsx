@@ -15,7 +15,7 @@ const About = () => {
         <div className="about-left-content"  data-aos="zoom-in">
             <p>{desc} </p>
             <div className="bt my-4 ">
-                      <Link to='https://drive.google.com/file/d/1Tvj1WPboh5VPM7vMrJUsX8QXTHM9PoSB/view?usp=sharing' >   <button className=' button' >Resume </button> </Link>
+                      <Link to='https://drive.google.com/file/d/16SNr6nGNsY08qg-Fs85zl51fFwwmCdwB/view?usp=sharing' >   <button className=' button' >Resume </button> </Link>
                  <Link to='/' >   <button className=' button  ' > About Me  </button> </Link>
             </div>
         </div>

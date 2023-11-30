@@ -47,8 +47,10 @@ const Bar = () => {
 
 
               </Nav>
-              <Link to='https://drive.google.com/file/d/1Tvj1WPboh5VPM7vMrJUsX8QXTHM9PoSB/view?usp=sharing' >
+
+              <Link to='https://drive.google.com/file/d/16SNr6nGNsY08qg-Fs85zl51fFwwmCdwB/view?usp=sharing' >
                 <button className=' button' >Resume </button>
+                
               </Link>
             </Navbar.Collapse>
           </Container>
