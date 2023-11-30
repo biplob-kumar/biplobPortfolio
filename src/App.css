@@ -95,6 +95,12 @@ div#navbarScroll {
 }
 
 
+/*  hover menu */
+
+.ms-auto.my-2.my-lg-0.navbar-nav.navbar-nav-scroll a:hover {
+    color:var(--primary-color)!important ;
+}
+
   /*  navbar logo css */
 
   h5.logo a {
