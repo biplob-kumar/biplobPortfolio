@@ -3,9 +3,7 @@ import React, { useEffect, useState } from 'react'
 
 import './App.css'
 import Bar from './components/Navbar'
-import { FadeLoader
-
-} from 'react-spinners';
+import { FadeLoader} from 'react-spinners';
 
 
 
@@ -20,6 +18,12 @@ function App() {
     }, 2000);
  
   }, [])
+
+
+  
+
+
+
 
 
 

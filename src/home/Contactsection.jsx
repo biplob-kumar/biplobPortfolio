@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React, { } from 'react'
 import '../style/contact.css'
 
@@ -14,7 +15,7 @@ const Contactsection = () => {
             <div className='container '>
          
                 {/* <!--Section: Contact v.2--> */}
-                <section class="mb-4 py-5"  >
+                <section className="mb-4 py-5"  >
 
                     <div className="contact-header">
                         
@@ -22,9 +23,9 @@ const Contactsection = () => {
                             <div className="col-lg-3"></div>
                             <div className="col-lg-6">
 
-                            <h2 class="h1-responsive font-weight-bold contact-h2 py-4">Contact us</h2>
+                            <h2 className="h1-responsive font-weight-bold contact-h2 py-4">Contact us</h2>
                         {/* <!--Section description--> */}
-                        <p class=" w-responsive  py-2">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
+                        <p className=" w-responsive  py-2">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
                             a matter of hours to help you . plese Contact Me </p>
 
                             </div>
