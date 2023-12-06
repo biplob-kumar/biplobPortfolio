@@ -3,7 +3,7 @@ import "../style/about.css"
 import { FaFacebook, FaGithub, FaLinkedin, FaTwitter, FaWhatsapp } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 
-const desc="Hello! I'm  developer biplob, i am a front-end developer. I develop web applications, , . My core skill is based on JavaScript and I love to do most of the things using JavaScript. I love to make the web more open to the world. I have graduated with a bachelor's degree in Computer Science Engineering from  open university in Bangaldesh  in 2023. I am available for any kind of job opportunity that suits my interests."
+const desc="Hello! I'm   Biplob Kumar , i am a front-end developer. I develop web applications, , . My core skill is based on JavaScript and I love to do most of the things using JavaScript. I love to make the web more open to the world. I have graduated with a bachelor's degree in Computer Science Engineering from  open university in Bangaldesh  in 2023. I am available for any kind of job opportunity that suits my interests."
 const about=" ABOUT ME"
 
 const About = () => {
@@ -16,7 +16,7 @@ const About = () => {
             <p>{desc} </p>
             <div className="bt my-4 ">
                       <Link to='https://drive.google.com/file/d/16SNr6nGNsY08qg-Fs85zl51fFwwmCdwB/view?usp=sharing' >   <button className=' button' >Resume </button> </Link>
-                 <Link to='/' >   <button className=' button  ' > About Me  </button> </Link>
+                 <Link to='/abouts' >   <button className=' button  ' > About Me  </button> </Link>
             </div>
         </div>
 

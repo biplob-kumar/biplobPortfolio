@@ -24,7 +24,10 @@ button.navbar-toggler.collapsed {
 }
 
 
-
+a{
+    text-decoration: none;
+    
+}
 /*  default css  */
 
 body {
