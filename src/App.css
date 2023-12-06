@@ -75,21 +75,22 @@ div#navbarScroll {
 
 /*   website lode r */
 
-.Bounch-leder{
+.Bounch-leder {
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 3rem;
-    text-align:center;
+    text-align: center;
     background-color: var(--color-dark);
     height: 100vh;
-  }
+}
 
-  /* icon hover  */
-  svg.icon{
+/* icon hover  */
+svg.icon {
     transition: .4s;
-  }
-  svg.icon:hover {
+}
+
+svg.icon:hover {
     color: var(--color-secundary);
     background: var(----color-dark);
 }
@@ -98,13 +99,20 @@ div#navbarScroll {
 /*  hover menu */
 
 .ms-auto.my-2.my-lg-0.navbar-nav.navbar-nav-scroll a:hover {
-    color:var(--primary-color)!important ;
+    color: var(--primary-color) !important;
 }
 
-  /*  navbar logo css */
+/*  navbar logo css */
 
-  h5.logo a {
+h5.logo a {
     text-decoration: none;
     font-family: cursive;
     color: white;
+}
+
+@media only screen and (max-width: 480px) {
+    .body {
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
 }

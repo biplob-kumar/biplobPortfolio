@@ -30,7 +30,7 @@ function App() {
   return (
  
   
-    <>
+    <div className='body'>
     {
       lodaing ?  (
     <div className='Bounch-leder'>
@@ -40,7 +40,7 @@ function App() {
         <Bar/>
       )
     }
-    </>
+    </div>
 
 
 
