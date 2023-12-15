@@ -1,0 +1,26 @@
+
+.pagination{
+  align-items: center;
+  justify-content: space-around;
+ 
+    
+}
+.pag{
+    
+    align-self: center;
+}
+.pag  button{
+    font-weight: 700;
+    border: none;
+    padding: 15px 43px;
+}
+
+a.page-link {
+    border: none;
+    padding: 15px 10px;
+}
+a.page-link:hover{
+    border: none;
+    color: white;
+    background-color: var(--primary-color);
+}

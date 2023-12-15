@@ -6,6 +6,7 @@ import { FaFacebook, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 import { FaCircle } from "react-icons/fa";
 import { FaExternalLinkAlt } from "react-icons/fa";
+// import AdvancedExample from '../components/Pagination';
 
 const portfolio = "PORTFOLIO"
 
@@ -31,10 +32,10 @@ const Portfolios = () => {
           <div>
 
           </div>
-          <ul className='d-flex nav'>
+          <ul className='d-flex nav'  >
             <li className='men ' > <button className='all-btn' onClick={() => setData(portfoliodata)} >All</button></li>
             {
-              collection.map((item) => <li className='men ' > < button onClick={() => { portfolio_filter(item) }} >{item}</button> </li>)
+              collection.map((item) => <li className='men 'key={item.id} > < button onClick={() => { portfolio_filter(item) }} >{item}</button> </li>)
             }
              <h2 className='text-white text-center mt-1'>Portfolio</h2>
           </ul>
@@ -50,23 +51,17 @@ const Portfolios = () => {
                   <Link to={item.livelink} className='portfolio-icon' >  <FaExternalLinkAlt />  </Link>
                   <Link to={item.githublink} className='portfolio-icon' >  <FaGithub /> </Link>
                 </div>
-
-    
-              </div>
-
-              
+              </div> 
             )
           }
-   
-
-
         </div>
-
-
+     
+    
         {/* <GalleryData/> */}
         <Link to='https://github.com/biplob-kumar?tab=repositories' className=' button-more mt-4' >   More... </Link>
-
+       {/* <AdvancedExample/> */}
       </div>
+
     </div>
   )
 }

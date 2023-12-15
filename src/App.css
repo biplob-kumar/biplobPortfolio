@@ -74,8 +74,6 @@ div#navbarScroll {
     gap: 1.5rem;
 }
 
-
-
 /*   website lode r */
 
 .Bounch-leder {
@@ -113,9 +111,45 @@ h5.logo a {
     color: white;
 }
 
+/*  custome scrool bar  */
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #ffff;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var( --primary-color);
+    height: 200px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #fff;
+    background: var( --primary-color);
+  }
+
+
+  /* mouse cursor  */
+  .selectingcolor{
+    color: var(--primary-color);
+  }
+
+  @media only screen and (max-width: 480px) {
+
+  }
+
 @media only screen and (max-width: 480px) {
     .body {
         overflow-x: hidden;
         overflow-y: hidden;
     }
 }
+
+
+

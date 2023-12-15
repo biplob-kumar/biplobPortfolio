@@ -1,15 +1,11 @@
 
 import React, { useEffect, useState } from 'react'
-
 import './App.css'
 import Bar from './components/Navbar'
 import { FadeLoader} from 'react-spinners';
 
 
-
-
 function App() {
-
   const [lodaing, setlodaing] = useState(false)
   useEffect(() => {
     setlodaing(true)
@@ -18,19 +14,10 @@ function App() {
     }, 2000);
  
   }, [])
-
-
-  
-
-
-
-
-
-
   return (
  
-  
     <div className='body'>
+ 
     {
       lodaing ?  (
     <div className='Bounch-leder'>
@@ -41,12 +28,6 @@ function App() {
       )
     }
     </div>
-
-
-
-
-
-
   )
 }
 

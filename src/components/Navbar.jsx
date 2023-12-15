@@ -19,12 +19,14 @@ import Blog from "../pages/Blog";
 import Contact from "../pages/Contact";
 import Abouts from '../pages/Abouts';
 
+
 // import Logo from "../assets/img/logo.png";
 
 const Bar = () => {
   return (
     <BrowserRouter>
       <>
+    
         <Navbar expand="lg" className="bg text-white sticky-top py-3">
           <Container>
             <Navbar.Brand href="#" className='text-white '>  <h5 className='logo'>  <Link to='/' > B<span>K</span></Link> </h5>   </Navbar.Brand>
@@ -41,11 +43,6 @@ const Bar = () => {
                 <Nav.Link className='text-white' as={Link} to='/portfolio' > PORTFOLIO</Nav.Link>
                 <Nav.Link className='text-white' as={Link} to='/blog' > BLOG</Nav.Link>
                 <Nav.Link className='text-white' as={Link} to='/contact' > CONTACT</Nav.Link>
-
-
-
-
-
               </Nav>
 
               <Link to='https://drive.google.com/file/d/16SNr6nGNsY08qg-Fs85zl51fFwwmCdwB/view?usp=sharing' >
@@ -57,10 +54,8 @@ const Bar = () => {
         </Navbar>
 
       </>
-
       <div>
         <Routes>
-
           <Route path='/' element={<Home />} />
           <Route path='/abouts' element={<Abouts/>} />
           <Route path='/skil' element={<Skill />} />
